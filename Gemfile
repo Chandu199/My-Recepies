@@ -4,7 +4,7 @@ ruby '2.2.1'
 
 gem 'rails', '4.2.1'
 
-
+gem 'sprockets-rails','~>2.1.4'
 
 gem 'sass-rails', '~> 5.0'
 
@@ -37,7 +37,7 @@ group :development, :test do
   gem 'bootstrap-sass', '~> 3.3.5'
   
   gem 'pry'
- 
+
   
 end
 
