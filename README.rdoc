@@ -9,4 +9,5 @@ description:text
  -description must be present-
  -description must be between 20 to 500 characters-
  -chef id must be present-
- 
+ , '#{ia.inspect}should be invalid'
+ , '#{va.inspect} should be valid's
