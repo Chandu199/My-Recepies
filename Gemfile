@@ -37,6 +37,7 @@ group :development, :test do
   gem 'bootstrap-sass'
   
   gem 'pry'
+  gem 'sprockets-sass'
 
   
 end
