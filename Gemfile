@@ -4,7 +4,7 @@ ruby '2.2.1'
 
 gem 'rails', '4.2.1'
 
-gem 'sprockets-rails','~>2.3.3'
+
 
 gem 'sass-rails', '~> 5.0'
 
@@ -13,7 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 
 
-
+gem 'avatar'
 gem 'jquery-rails'
 
 gem 'turbolinks'
@@ -37,8 +37,7 @@ group :development, :test do
   gem 'bootstrap-sass'
   
   gem 'pry'
-  gem 'sprockets-sass'
-
+ 
   
 end
 
