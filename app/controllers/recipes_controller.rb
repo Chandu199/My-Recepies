@@ -54,7 +54,7 @@ class RecipesController <ApplicationController
             redirect_to :back
         else
             flash[:danger]="not added as already selection made"
-            redirect_to :back
+            redirect_to :back 
         end
     end
     
