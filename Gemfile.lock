@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    action (0.0.0)
     actionmailer (4.2.1)
       actionpack (= 4.2.1)
       actionview (= 4.2.1)
@@ -203,8 +202,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  action
-  autoprefixer-rails
   avatar
   bcrypt (= 3.1.7)
   bootstrap-sass

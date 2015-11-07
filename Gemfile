@@ -39,9 +39,7 @@ group :development, :test do
 
 
   gem 'spring'
-  
-  gem 'bootstrap-sass'
-  
+
   gem 'pry'
  
   
@@ -50,6 +48,6 @@ end
 group:production do
   gem 'pg'
   gem'rails_12factor'
-  gem 'action'
-  gem 'autoprefixer-rails'
+  
+  
 end
