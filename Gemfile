@@ -50,5 +50,6 @@ end
 group:production do
   gem 'pg'
   gem'rails_12factor'
-  
+  gem 'action'
+  gem 'autoprefixer-rails'
 end
