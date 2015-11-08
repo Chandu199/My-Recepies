@@ -8,7 +8,6 @@ class ApplicationController < ActionController::Base
   
   def current_user
     @current_user ||= Chef.find(session[:chef_id]) if session[:chef_id]
-    
   end
   
   def logged_in?
