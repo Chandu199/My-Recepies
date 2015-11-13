@@ -23,7 +23,7 @@ class Recipe <ActiveRecord::Base
      private
          def picture_size
             if picture.size>10.megabytes
-                erros.aadd(:picture,"Should be less than 10MB")         
+                erros.add(:picture,"Should be less than 10MB")         
             end
          end
     

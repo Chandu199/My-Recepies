@@ -8,6 +8,7 @@ class LoginsController<ApplicationController
         if chef && chef.authenticate(params[:password])
             session[:chef_id]=chef.id
             flash[:success]="Logged in Successfully "
+            
             redirect_to recipes_path
         else
             
